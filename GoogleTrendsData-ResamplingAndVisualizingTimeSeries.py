@@ -1,3 +1,16 @@
+"""Analyzing Google Trends dataset
+
+This 'script' analyzes a Google Search dataset to find if there is a correlation
+ between Google Search trends and other kinds of data to answer questions such as:
+    Do Google Search trends correlate with stock prices?
+    Do Google Search trends correlate with unemployment rates?
+The results of the data analysis are plotted multiline charts using Matplotlib.
+
+This script requires that 'pandas' and 'Matplotlib' be installed within the Python
+environment you are running this script in.
+
+"""
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -16,6 +29,8 @@
 # # Import Statements
 
 # In[1]:
+
+
 
 
 import pandas as pd
